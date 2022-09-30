@@ -31,7 +31,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 	public WebDriver driver;
 	public WebDriverWait wait;
-	public static final String XLPATH="./data/input.xlsx";
+	public static final String XLPATH="./data/inputData.xlsx";
 	public static final String REPORTPATH="./target/MyReport.html";
 	public static ExtentReports eReport;
 	public ExtentTest test;
